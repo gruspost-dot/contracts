@@ -486,7 +486,7 @@ const file_auth_service_proto_rawDesc = "" +
 	"\bValidate\x12\x15.auth.ValidateRequest\x1a\x16.auth.ValidateResponse\x125\n" +
 	"\x06Logout\x12\x13.auth.LogoutRequest\x1a\x16.google.protobuf.Empty\x129\n" +
 	"\n" +
-	"DeleteUser\x12\x13.auth.DeleteRequest\x1a\x16.google.protobuf.EmptyB9Z7github.com/gruspost-dot/gruspost/contracts/auth/go;authb\x06proto3"
+	"DeleteUser\x12\x13.auth.DeleteRequest\x1a\x16.google.protobuf.EmptyB0Z.github.com/gruspost-dot/contracts/auth/go;authb\x06proto3"
 
 var (
 	file_auth_service_proto_rawDescOnce sync.Once

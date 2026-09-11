@@ -7,7 +7,7 @@
 package transaction
 
 import (
-	_go "github.com/gruspost-dot/gruspost/contracts/pagination/go"
+	_go "github.com/gruspost-dotOD/contracts/pagination/go"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
@@ -355,7 +355,7 @@ const file_transaction_service_proto_rawDesc = "" +
 	"\aDeposit\x12\x1b.transaction.DepositRequest\x1a\x16.google.protobuf.Empty\x12@\n" +
 	"\bWithdraw\x12\x1c.transaction.WithdrawRequest\x1a\x16.google.protobuf.Empty\x12@\n" +
 	"\bTransfer\x12\x1c.transaction.TransferRequest\x1a\x16.google.protobuf.Empty\x12\\\n" +
-	"\x0fGetTransactions\x12#.transaction.GetTransactionsRequest\x1a$.transaction.GetTransactionsResponseB>Z<github.com/yuliaapopova/contracts/transaction/go;transactionb\x06proto3"
+	"\x0fGetTransactions\x12#.transaction.GetTransactionsRequest\x1a$.transaction.GetTransactionsResponseB>Z<github.com/gruspost-dot/contracts/transaction/go;transactionb\x06proto3"
 
 var (
 	file_transaction_service_proto_rawDescOnce sync.Once

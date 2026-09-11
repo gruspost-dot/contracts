@@ -248,7 +248,7 @@ const file_transaction_model_proto_rawDesc = "" +
 	"\x06amount\x18\x05 \x01(\x01R\x06amount\"\x89\x01\n" +
 	"\x12TransactionDetails\x12:\n" +
 	"\vtransaction\x18\x01 \x01(\v2\x18.transaction.TransactionR\vtransaction\x127\n" +
-	"\aentries\x18\x02 \x03(\v2\x1d.transaction.TransactionEntryR\aentriesB>Z<github.com/yuliaapopova/contracts/transaction/go;transactionb\x06proto3"
+	"\aentries\x18\x02 \x03(\v2\x1d.transaction.TransactionEntryR\aentriesB>Z<github.com/gruspost-dot/contracts/transaction/go;transactionb\x06proto3"
 
 var (
 	file_transaction_model_proto_rawDescOnce sync.Once

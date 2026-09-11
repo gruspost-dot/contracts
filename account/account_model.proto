@@ -4,7 +4,7 @@ package account;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/gruspost-dot/gruspost/contracts/account/go;account";
+option go_package = "github.com/gruspost-dot/contracts/account/go;account";
 
 message CreateUser {
   string login = 1;

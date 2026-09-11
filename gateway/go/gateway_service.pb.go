@@ -7,10 +7,10 @@
 package gateway
 
 import (
-	_go "github.com/gruspost-dot/gruspost/contracts/account/go"
-	_go1 "github.com/gruspost-dot/gruspost/contracts/auth/go"
-	_go2 "github.com/gruspost-dot/gruspost/contracts/pagination/go"
-	_go3 "github.com/yuliaapopova/contracts/transaction/go"
+	_go "github.com/gruspost-dot/contracts/account/go"
+	_go1 "github.com/gruspost-dot/contracts/auth/go"
+	_go3 "github.com/gruspost-dot/contracts/transaction/go"
+	_go2 "github.com/gruspost-dotOD/contracts/pagination/go"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -1274,7 +1274,7 @@ const file_gateway_service_proto_rawDesc = "" +
 	"\aDeposit\x12\x17.gateway.DepositRequest\x1a\x16.google.protobuf.Empty\"'\x82\xd3\xe4\x93\x02!:\x01*\"\x1c/api/v1/transactions/deposit\x12f\n" +
 	"\bWithdraw\x12\x18.gateway.WithdrawRequest\x1a\x16.google.protobuf.Empty\"(\x82\xd3\xe4\x93\x02\":\x01*\"\x1d/api/v1/transactions/withdraw\x12f\n" +
 	"\bTransfer\x12\x18.gateway.TransferRequest\x1a\x16.google.protobuf.Empty\"(\x82\xd3\xe4\x93\x02\":\x01*\"\x1d/api/v1/transactions/transfer\x12r\n" +
-	"\x0fGetTransactions\x12\x1f.gateway.GetTransactionsRequest\x1a .gateway.GetTransactionsResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14/api/v1/transactionsB6Z4github.com/yuliaapopova/contracts/gateway/go;gatewayb\x06proto3"
+	"\x0fGetTransactions\x12\x1f.gateway.GetTransactionsRequest\x1a .gateway.GetTransactionsResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14/api/v1/transactionsB6Z4github.com/gruspost-dot/contracts/gateway/go;gatewayb\x06proto3"
 
 var (
 	file_gateway_service_proto_rawDescOnce sync.Once

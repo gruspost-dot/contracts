@@ -289,7 +289,7 @@ const file_account_model_proto_rawDesc = "" +
 	" \x01(\v2\x1a.google.protobuf.TimestampR\tupdatedAt\x12\x18\n" +
 	"\abalance\x18\v \x01(\x02R\abalance\x12\x1d\n" +
 	"\n" +
-	"is_deleted\x18\f \x01(\bR\tisDeletedB?Z=github.com/gruspost-dot/gruspost/contracts/account/go;accountb\x06proto3"
+	"is_deleted\x18\f \x01(\bR\tisDeletedB6Z4github.com/gruspost-dot/contracts/account/go;accountb\x06proto3"
 
 var (
 	file_account_model_proto_rawDescOnce sync.Once

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package gateway;
-option go_package = "github.com/yuliaapopova/contracts/gateway/go;gateway";
+option go_package = "github.com/gruspost-dot/contracts/gateway/go;gateway";
 
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";

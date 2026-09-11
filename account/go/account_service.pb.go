@@ -7,7 +7,7 @@
 package account
 
 import (
-	_go "github.com/gruspost-dot/gruspost/contracts/pagination/go"
+	_go "github.com/gruspost-dotOD/contracts/pagination/go"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -901,7 +901,7 @@ const file_account_service_proto_rawDesc = "" +
 	"\bWithdraw\x12\x18.account.WithdrawRequest\x1a\x19.account.WithdrawResponse\x12?\n" +
 	"\bTransfer\x12\x18.account.TransferRequest\x1a\x19.account.TransferResponse\x12E\n" +
 	"\n" +
-	"GetBalance\x12\x1a.account.GetBalanceRequest\x1a\x1b.account.GetBalanceResponseB?Z=github.com/gruspost-dot/gruspost/contracts/account/go;accountb\x06proto3"
+	"GetBalance\x12\x1a.account.GetBalanceRequest\x1a\x1b.account.GetBalanceResponseB6Z4github.com/gruspost-dot/contracts/account/go;accountb\x06proto3"
 
 var (
 	file_account_service_proto_rawDescOnce sync.Once

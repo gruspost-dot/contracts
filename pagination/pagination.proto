@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package pagination;
 
-option go_package = "github.com/gruspost-dot/gruspost/contracts/pagination/go;pagination";
+option go_package = "github.com/gruspost-dotOD/contracts/pagination/go;pagination";
 
 message Pagination {
   uint32 offset = 1;

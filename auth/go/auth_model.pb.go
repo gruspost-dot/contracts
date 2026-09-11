@@ -80,7 +80,7 @@ const file_auth_model_proto_rawDesc = "" +
 	"\x10auth_model.proto\x12\x04auth\"S\n" +
 	"\tTokenPair\x12!\n" +
 	"\faccess_token\x18\x01 \x01(\tR\vaccessToken\x12#\n" +
-	"\rrefresh_token\x18\x02 \x01(\tR\frefreshTokenB9Z7github.com/gruspost-dot/gruspost/contracts/auth/go;authb\x06proto3"
+	"\rrefresh_token\x18\x02 \x01(\tR\frefreshTokenB0Z.github.com/gruspost-dot/contracts/auth/go;authb\x06proto3"
 
 var (
 	file_auth_model_proto_rawDescOnce sync.Once

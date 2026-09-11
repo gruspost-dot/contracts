@@ -7,7 +7,7 @@ import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";
 import "pagination/pagination.proto";
 
-option go_package = "github.com/gruspost-dot/gruspost/contracts/account/go;account";
+option go_package = "github.com/gruspost-dot/contracts/account/go;account";
 
 service Account {
   rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
