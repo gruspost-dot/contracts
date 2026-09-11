@@ -7,7 +7,7 @@
 package account
 
 import (
-	_go "github.com/gruspost-dotOD/contracts/pagination/go"
+	_go "github.com/gruspost-dot/contracts/pagination/go"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -1,12 +1,70 @@
-# Binaries for programs and plugins
+# Ignore all files and directories
+*
+# Except for the .git directory
+!/.git
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore temp files
+*.tmp
+*.log
+
+#Binares for programs and plugins
 *.exe
 *.exe~
-*.dll
+@.dll
 *.so
-*.dylib
+@.dylib
 
-# Test binary, build with `go test -c`
+#TEST binary
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+#Go coverage
 *.out
+coverage.txt
+coverage,out
+coverage.html
+
+
+go.work
+
+.env
+.rnv.local
+.env.development
+.env.test
+.env.production
+
+.vscode/
+.idea/
+#.swp
+@.swo
+*~
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.dylibThumbs.dylib
+
+#Logs
+*.log
+*.log.*
+
+build/
+dist/
+bin/
+tmp/
+temp/
+
+*.prof
+*.pprof
+
+
+
+
+

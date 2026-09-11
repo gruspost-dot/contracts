@@ -9,8 +9,8 @@ package gateway
 import (
 	_go "github.com/gruspost-dot/contracts/account/go"
 	_go1 "github.com/gruspost-dot/contracts/auth/go"
+	_go2 "github.com/gruspost-dot/contracts/pagination/go"
 	_go3 "github.com/gruspost-dot/contracts/transaction/go"
-	_go2 "github.com/gruspost-dotOD/contracts/pagination/go"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
